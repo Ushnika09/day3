@@ -46,7 +46,7 @@ node index.js
 
 Server runs at: http://localhost:3000
 
-##🧪 How to Test the API with Postman
+# 🧪 How to Test the API with Postman
 Use Postman to test all endpoints like a pro:
 
 📖 GET /books
@@ -88,7 +88,9 @@ Remove a book by ID
 
 📌 Don’t forget to set Content-Type: application/json for POST, PUT, PATCH.
 
-##🔐 Notes
+
+
+🔐 Notes
 Data is stored in memory — restarting the server resets the book list
 Proper status codes, error handling, and JSON responses are included
 Built without overcomplicating — just clean REST fundamentals
