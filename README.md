@@ -90,14 +90,17 @@ Remove a book by ID
 
 
 
-🔐 Notes
+## 🔐 Notes
+
 Data is stored in memory — restarting the server resets the book list
 Proper status codes, error handling, and JSON responses are included
 Built without overcomplicating — just clean REST fundamentals
 
-🎯 Why I Built This
+## 🎯 Why I Built This
+
 This was Task 3 for the Elevate Labs Web Development Internship.
 But more than that — it was my personal checkpoint.
 To slow down, revisit the foundations, and walk out saying:
+
 
 “Yes, I get this now.”
