@@ -44,6 +44,48 @@ npm install
 node index.js
 Server runs at: http://localhost:3000
 
+🧪 How to Test the API with Postman
+Use Postman to test all endpoints like a pro:
+
+📖 GET /books
+View all books
+
+🔍 GET /books/:id
+Get details of a specific book
+
+Example: http://localhost:3000/books/1
+
+➕ POST /books
+Add a new book
+
+Method: POST
+
+Body → raw → JSON:
+
+{
+  "id": 6,
+  "title": "Deep Work",
+  "author": "Cal Newport"
+}
+
+✏️ PUT /books/:id
+Replace an entire book
+
+Example: http://localhost:3000/books/3
+
+🩹 PATCH /books/:id
+Update only specific fields
+
+Example:
+{
+  "title": "Updated Title Only"
+}
+
+🗑️ DELETE /books/:id
+Remove a book by ID
+
+📌 Don’t forget to set Content-Type: application/json for POST, PUT, PATCH.
+
 🔐 Notes
 Data is stored in memory — restarting the server resets the book list
 Proper status codes, error handling, and JSON responses are included
